@@ -3,6 +3,7 @@ from flask_cors import CORS
 from sympy import sympify, SympifyError, sin, cos, tan, pi, diff, integrate, lambdify
 import numpy as np
 import plotly.graph_objs as go
+import os
 
 app = Flask(__name__)
 CORS(app)
